@@ -1,0 +1,44 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "roboto";
+    height: 100vh;
+    background-color: #fcfcf7;
+    color: #1f1f09;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button,
+li,
+a {
+    all: unset;
+    box-sizing: border-box;
+}
+
+#dropdown {
+    --border-radius: 6px;
+    --shadow-color: 60deg 13% 61%;
+
+    max-width: 220px;
+    width: 100%;
+    background-color: #fff;
+    border-radius: var(--border-radius);
+    position: relative;
+}
+
+.dropdown-toggle,
+.menu-item,
+.submenu-item {
+    width: 100%;
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
