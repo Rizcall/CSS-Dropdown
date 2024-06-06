@@ -42,3 +42,17 @@ a {
     cursor: pointer;
 }
 
+:is(.menu-item, .submenu-item) :first-child(
+    border-top-right-radius: inherit;
+    border-top-left-radius: inherit;
+)
+
+:is(.menu-item, .submenu-item) :last-child(
+    border-bottom-right-radius: inherit;
+    border-bottom-left-radius: inherit;
+)
+
+:is(.menu-item, .submenu-item) :hover(
+    background-color: faf6ea;
+)
+
